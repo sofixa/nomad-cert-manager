@@ -9,8 +9,8 @@
 * write result to Vault
 
 # Components
-* Nomad's [https://github.com/hashicorp/nomad/tree/master/api](API package) for [https://www.hashicorp.com/blog/building-on-top-of-hashicorp-nomad-s-event-stream](Nomad Event stream) to listen for new Deployments
-* Consul's [https://github.com/hashicorp/consul/tree/master/api](API package) for interacting with Consul (for configuration and services)
+* Nomad's [API package](https://github.com/hashicorp/nomad/tree/master/api) for [Nomad Event stream](https://www.hashicorp.com/blog/building-on-top-of-hashicorp-nomad-s-event-stream) to listen for new Deployments
+* Consul's [API package](https://github.com/hashicorp/consul/tree/master/api) for interacting with Consul (for configuration and services)
 * an ACME library for the ACME part
-* Vault's [https://github.com/hashicorp/vault/tree/master/api](API package) for integrating with Vault (storing certificates)
+* Vault's [API package](https://github.com/hashicorp/vault/tree/master/api) for integrating with Vault (storing certificates)
 
